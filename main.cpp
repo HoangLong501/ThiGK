@@ -8,3 +8,10 @@ int main(){
 	cin>>n;
 	return 0;
 }
+
+bool ktHoanThien(int n){
+	if((int)sqrt(n)==sqrt(n))
+		return true;
+	return false;
+	
+}
