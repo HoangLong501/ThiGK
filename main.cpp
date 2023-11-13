@@ -1,7 +1,18 @@
 #include <iostream>
 using namespace std;
 
-
+void main(){
+	int n;
+	cout<<"Nhap n ";
+	cin>>n;
+	if(ktHoanThien(n)==true)
+		cout<<"hoan thien";
+	else cout<<"khong ht";
+	
+	if(ktChinhphuong(n)==true)
+		cout<<"chinh phuong";
+	else cout<<"khong cp";
+}
 
 bool ktHoanThien(int n){
 	if((int)sqrt(n)==sqrt(n))
